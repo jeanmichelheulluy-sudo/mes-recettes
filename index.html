@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes Recettes & Courses</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; max-width: 600px; margin: auto; }
+        .recette-item { margin-bottom: 15px; padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+        button { background-color: #4CAF50; color: white; padding: 10px 15px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; margin-top: 20px;}
+        button:hover { background-color: #45a049; }
+    </style>
+</head>
+<body>
+
+    <h1>Menu de la semaine 🍽️</h1>
+    <p>Cochez les recettes prévues pour générer la liste de courses.</p>
+
+    <!-- C'est ici que le JavaScript va injecter nos recettes -->
+    <div id="liste-recettes"></div>
+
+    <!-- Le fameux bouton -->
+    <button id="bouton-copier">Copier les ingrédients pour Keep</button>
+
+    <!-- On relie notre page au fichier JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
