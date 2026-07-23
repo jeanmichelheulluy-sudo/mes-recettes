@@ -4,11 +4,31 @@
     "title": "Purée de pommes de terre classique",
     "appliance": "Thermomix",
     "ingredients": [
-      { "name": "Pommes de terre (type Bintje)", "amount": 1000, "unit": "g" },
-      { "name": "Lait", "amount": 400, "unit": "ml" },
-      { "name": "Beurre doux", "amount": 50, "unit": "g" },
-      { "name": "Sel fin", "amount": 1, "unit": "c.à.c" },
-      { "name": "Noix de muscade en poudre", "amount": 1, "unit": "pincée" }
+      {
+        "name": "Pommes de terre (type Bintje)",
+        "amount": 1000,
+        "unit": "g"
+      },
+      {
+        "name": "Lait",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "Beurre doux",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Sel fin",
+        "amount": 1,
+        "unit": "c.à.c"
+      },
+      {
+        "name": "Noix de muscade en poudre",
+        "amount": 1,
+        "unit": "pincée"
+      }
     ]
   },
   {
@@ -16,11 +36,31 @@
     "title": "Pilons de poulet rôtis aux épices",
     "appliance": "AirFryer",
     "ingredients": [
-      { "name": "Pilons de poulet", "amount": 6, "unit": "pièce" },
-      { "name": "Huile d'olive", "amount": 2, "unit": "c.à.s" },
-      { "name": "Paprika fumé", "amount": 1, "unit": "c.à.c" },
-      { "name": "Ail en poudre", "amount": 1, "unit": "c.à.c" },
-      { "name": "Sel", "amount": 1, "unit": "pincée" }
+      {
+        "name": "Pilons de poulet",
+        "amount": 6,
+        "unit": "pièce"
+      },
+      {
+        "name": "Huile d'olive",
+        "amount": 2,
+        "unit": "c.à.s"
+      },
+      {
+        "name": "Paprika fumé",
+        "amount": 1,
+        "unit": "c.à.c"
+      },
+      {
+        "name": "Ail en poudre",
+        "amount": 1,
+        "unit": "c.à.c"
+      },
+      {
+        "name": "Sel",
+        "amount": 1,
+        "unit": "pincée"
+      }
     ]
   },
   {
@@ -28,12 +68,36 @@
     "title": "Coquillettes façon risotto au jambon",
     "appliance": "Thermomix",
     "ingredients": [
-      { "name": "Coquillettes", "amount": 320, "unit": "g" },
-      { "name": "Dés de jambon", "amount": 150, "unit": "g" },
-      { "name": "Eau", "amount": 800, "unit": "ml" },
-      { "name": "Bouillon de volaille", "amount": 1, "unit": "cube" },
-      { "name": "Crème fraîche épaisse", "amount": 2, "unit": "c.à.s" },
-      { "name": "Parmesan râpé", "amount": 40, "unit": "g" }
+      {
+        "name": "Coquillettes",
+        "amount": 320,
+        "unit": "g"
+      },
+      {
+        "name": "Dés de jambon",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Eau",
+        "amount": 800,
+        "unit": "ml"
+      },
+      {
+        "name": "Bouillon de volaille",
+        "amount": 1,
+        "unit": "cube"
+      },
+      {
+        "name": "Crème fraîche épaisse",
+        "amount": 2,
+        "unit": "c.à.s"
+      },
+      {
+        "name": "Parmesan râpé",
+        "amount": 40,
+        "unit": "g"
+      }
     ]
   },
   {
@@ -41,11 +105,31 @@
     "title": "Poulet frit croustillant à la coréenne",
     "appliance": "AirFryer",
     "ingredients": [
-      { "name": "Blanc de poulet", "amount": 500, "unit": "g" },
-      { "name": "Fécule de maïs", "amount": 3, "unit": "c.à.s" },
-      { "name": "Sauce soja", "amount": 2, "unit": "c.à.s" },
-      { "name": "Miel", "amount": 2, "unit": "c.à.s" },
-      { "name": "Graines de sésame", "amount": 1, "unit": "c.à.c" }
+      {
+        "name": "Blanc de poulet",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Fécule de maïs",
+        "amount": 3,
+        "unit": "c.à.s"
+      },
+      {
+        "name": "Sauce soja",
+        "amount": 2,
+        "unit": "c.à.s"
+      },
+      {
+        "name": "Miel",
+        "amount": 2,
+        "unit": "c.à.s"
+      },
+      {
+        "name": "Graines de sésame",
+        "amount": 1,
+        "unit": "c.à.c"
+      }
     ]
   },
   {
@@ -53,12 +137,36 @@
     "title": "Hachis Parmentier traditionnel",
     "appliance": "Thermomix",
     "ingredients": [
-      { "name": "Viande hachée de bœuf", "amount": 500, "unit": "g" },
-      { "name": "Pommes de terre", "amount": 800, "unit": "g" },
-      { "name": "Lait", "amount": 300, "unit": "ml" },
-      { "name": "Beurre", "amount": 40, "unit": "g" },
-      { "name": "Oignon", "amount": 1, "unit": "pièce" },
-      { "name": "Gruyère râpé", "amount": 70, "unit": "g" }
+      {
+        "name": "Viande hachée de bœuf",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Pommes de terre",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "Lait",
+        "amount": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "Beurre",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Oignon",
+        "amount": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "Gruyère râpé",
+        "amount": 70,
+        "unit": "g"
+      }
     ]
   },
   {
@@ -66,11 +174,31 @@
     "title": "Tenders de poulet aux Corn Flakes",
     "appliance": "AirFryer",
     "ingredients": [
-      { "name": "Aiguillettes de poulet", "amount": 400, "unit": "g" },
-      { "name": "Corn Flakes", "amount": 100, "unit": "g" },
-      { "name": "Oeuf", "amount": 2, "unit": "pièce" },
-      { "name": "Farine", "amount": 50, "unit": "g" },
-      { "name": "Sel fin", "amount": 1, "unit": "pincée" }
+      {
+        "name": "Aiguillettes de poulet",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Corn Flakes",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Oeuf",
+        "amount": 2,
+        "unit": "pièce"
+      },
+      {
+        "name": "Farine",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Sel fin",
+        "amount": 1,
+        "unit": "pincée"
+      }
     ]
   },
   {
@@ -78,11 +206,31 @@
     "title": "Pâtes à la Carbonara",
     "appliance": "Thermomix",
     "ingredients": [
-      { "name": "Spaghetti", "amount": 400, "unit": "g" },
-      { "name": "Lardons", "amount": 150, "unit": "g" },
-      { "name": "Oeuf", "amount": 3, "unit": "pièce" },
-      { "name": "Parmesan râpé", "amount": 100, "unit": "g" },
-      { "name": "Eau", "amount": 1000, "unit": "ml" }
+      {
+        "name": "Spaghetti",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Lardons",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Oeuf",
+        "amount": 3,
+        "unit": "pièce"
+      },
+      {
+        "name": "Parmesan râpé",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Eau",
+        "amount": 1000,
+        "unit": "ml"
+      }
     ]
   },
   {
@@ -90,10 +238,26 @@
     "title": "Bœuf mariné type Bulgogi",
     "appliance": "AirFryer",
     "ingredients": [
-      { "name": "Faux-filet de bœuf émincé", "amount": 400, "unit": "g" },
-      { "name": "Sauce soja", "amount": 4, "unit": "c.à.s" },
-      { "name": "Sucre roux", "amount": 2, "unit": "c.à.s" },
-      { "name": "Huile de sésame", "amount": 1, "unit": "c.à.s" }
+      {
+        "name": "Faux-filet de bœuf émincé",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Sauce soja",
+        "amount": 4,
+        "unit": "c.à.s"
+      },
+      {
+        "name": "Sucre roux",
+        "amount": 2,
+        "unit": "c.à.s"
+      },
+      {
+        "name": "Huile de sésame",
+        "amount": 1,
+        "unit": "c.à.s"
+      }
     ]
   },
   {
@@ -101,11 +265,31 @@
     "title": "Velouté de carottes au lait de coco",
     "appliance": "Thermomix",
     "ingredients": [
-      { "name": "Carottes", "amount": 600, "unit": "g" },
-      { "name": "Oignon", "amount": 1, "unit": "pièce" },
-      { "name": "Lait de coco", "amount": 200, "unit": "ml" },
-      { "name": "Eau", "amount": 400, "unit": "ml" },
-      { "name": "Bouillon de légumes", "amount": 1, "unit": "cube" }
+      {
+        "name": "Carottes",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "Oignon",
+        "amount": 1,
+        "unit": "pièce"
+      },
+      {
+        "name": "Lait de coco",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "Eau",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "Bouillon de légumes",
+        "amount": 1,
+        "unit": "cube"
+      }
     ]
   },
   {
@@ -113,10 +297,68 @@
     "title": "Pavés de saumon rôtis",
     "appliance": "AirFryer",
     "ingredients": [
-      { "name": "Pavé de saumon", "amount": 3, "unit": "pièce" },
-      { "name": "Jus de citron", "amount": 1, "unit": "c.à.s" },
-      { "name": "Huile d'olive", "amount": 1, "unit": "c.à.s" },
-      { "name": "Herbes de Provence", "amount": 1, "unit": "c.à.c" }
+      {
+        "name": "Pavé de saumon",
+        "amount": 3,
+        "unit": "pièce"
+      },
+      {
+        "name": "Jus de citron",
+        "amount": 1,
+        "unit": "c.à.s"
+      },
+      {
+        "name": "Huile d'olive",
+        "amount": 1,
+        "unit": "c.à.s"
+      },
+      {
+        "name": "Herbes de Provence",
+        "amount": 1,
+        "unit": "c.à.c"
+      }
+    ]
+  },
+  {
+    "id": "rec-auto-1784809747545",
+    "title": "Salade de lentilles, quinoa et courgettes",
+    "appliance": "Thermomix",
+    "ingredients": [
+      {
+        "name": "grains de quinoa",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "eau",
+        "amount": 1200,
+        "unit": "g"
+      },
+      {
+        "name": "lentilles",
+        "amount": 110,
+        "unit": "g"
+      },
+      {
+        "name": "huile d'olive",
+        "amount": 25,
+        "unit": "g"
+      },
+      {
+        "name": "courgettes",
+        "amount": 140,
+        "unit": "g"
+      },
+      {
+        "name": "petits pois en conserve",
+        "amount": 1,
+        "unit": "boîte"
+      },
+      {
+        "name": "thon en conserve",
+        "amount": 1,
+        "unit": "boîte"
+      }
     ]
   }
 ]
