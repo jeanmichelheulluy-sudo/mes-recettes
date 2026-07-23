@@ -6,11 +6,13 @@ const fs = require('fs');
 
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
+// Fonction pour mettre le robot en pause (évite de bloquer l'API)
+const pause = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
 async function explorerThermoRecetas() {
     console.log("🤖 Démarrage du robot sur ThermoRecetas...");
 
     try {
-        // 1. Récupération des liens sur la page d'accueil
         const urlSite = 'https://fr.thermorecetas.com/';
         const reponse = await axios.get(urlSite, {
             headers: { 'User-Agent': 'Mozilla/5.0' }
@@ -26,18 +28,16 @@ async function explorerThermoRecetas() {
             }
         });
 
-        // 2. On isole les 3 premiers liens pour ne pas surcharger l'IA
-        const liensAExplorer = liensRecettes.slice(0, 3);
-        console.log(`🎯 J'ai isolé les ${liensAExplorer.length} dernières recettes à analyser.`);
+        // NOUVEAU : On prend tous les liens trouvés !
+        const liensAExplorer = liensRecettes;
+        console.log(`🎯 J'ai trouvé ${liensAExplorer.length} recettes à analyser au total.`);
 
-        // 3. On charge ta liste actuelle de recettes pour vérifier les doublons
         const rawData = fs.readFileSync('recettes.json', 'utf8');
         let listeRecettes = JSON.parse(rawData);
         let nbAjouts = 0;
 
-        // 4. On lance une boucle pour analyser chaque lien un par un
         for (const lien of liensAExplorer) {
-            console.log(`\n🔗 Aspiration ciblée : ${lien}`);
+            console.log(`\n🔗 Aspiration de : ${lien}`);
             
             const reponseRecette = await axios.get(lien, {
                 headers: { 'User-Agent': 'Mozilla/5.0' }
@@ -70,7 +70,6 @@ async function explorerThermoRecetas() {
             const nouvelleRecette = JSON.parse(jsonPropre);
             nouvelleRecette.id = "rec-auto-" + Date.now() + Math.floor(Math.random() * 1000);
 
-            // 5. Vérification anti-doublon : La recette existe-t-elle déjà dans ton fichier ?
             const existeDeja = listeRecettes.find(r => r.title.toLowerCase() === nouvelleRecette.title.toLowerCase());
             
             if (existeDeja) {
@@ -80,9 +79,12 @@ async function explorerThermoRecetas() {
                 nbAjouts++;
                 console.log(`✅ Ajoutée : "${nouvelleRecette.title}"`);
             }
+
+            // NOUVEAU : Pause de 4 secondes avant d'attaquer la recette suivante
+            console.log("⏳ Pause de 4s pour respirer...");
+            await pause(4000);
         }
 
-        // 6. On sauvegarde le fichier une seule fois à la fin s'il y a eu des nouveautés
         if (nbAjouts > 0) {
             fs.writeFileSync('recettes.json', JSON.stringify(listeRecettes, null, 2));
             console.log(`\n💾 Fichier mis à jour avec ${nbAjouts} nouvelle(s) recette(s) !`);

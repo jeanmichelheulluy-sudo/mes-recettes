@@ -1,0 +1,38 @@
+name: Aspiration Auto des Recettes
+
+on:
+  schedule:
+    # S'exécute tous les jours à 2h00 du matin (heure serveur)
+    - cron: '0 2 * * *'
+  workflow_dispatch: 
+    # Permet aussi de le déclencher manuellement via un bouton sur GitHub
+
+jobs:
+  mise-a-jour-recettes:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Récupération de ton site
+        uses: actions/checkout@v3
+
+      - name: ⚙️ Installation de Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: 📦 Installation des bibliothèques
+        run: npm install
+
+      - name: 🤖 Lancement du robot explorateur
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scraper.js
+
+      - name: 💾 Sauvegarde et mise en ligne des nouveautés
+        run: |
+          git config --global user.name "Robot Assistant"
+          git config --global user.email "robot@actions.github.com"
+          git add recettes.json
+          # Vérifie s'il y a eu des modifications pour ne pas faire d'erreur
+          git diff --quiet && git diff --staged --quiet || git commit -m "🤖 Nouvelles recettes ajoutées automatiquement"
+          git push
