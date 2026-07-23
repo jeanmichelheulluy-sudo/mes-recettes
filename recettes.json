@@ -1,0 +1,39 @@
+[
+  {
+    "id": "rec-001",
+    "title": "Purée de pommes de terre classique",
+    "appliance": "Thermomix",
+    "ingredients": [
+      { "name": "Pommes de terre (type Bintje)", "amount": 1000, "unit": "g" },
+      { "name": "Lait", "amount": 400, "unit": "g" },
+      { "name": "Beurre doux", "amount": 50, "unit": "g" },
+      { "name": "Sel fin", "amount": 1, "unit": "c.à.c" },
+      { "name": "Noix de muscade en poudre", "amount": 1, "unit": "pincée" }
+    ]
+  },
+  {
+    "id": "rec-002",
+    "title": "Pilons de poulet rôtis aux épices",
+    "appliance": "AirFryer",
+    "ingredients": [
+      { "name": "Pilons de poulet", "amount": 6, "unit": "pièce" },
+      { "name": "Huile d'olive", "amount": 2, "unit": "c.à.s" },
+      { "name": "Paprika fumé", "amount": 1, "unit": "c.à.c" },
+      { "name": "Ail en poudre", "amount": 1, "unit": "c.à.c" },
+      { "name": "Sel", "amount": 1, "unit": "pincée" }
+    ]
+  },
+  {
+    "id": "rec-003",
+    "title": "Coquillettes façon risotto au jambon",
+    "appliance": "Thermomix",
+    "ingredients": [
+      { "name": "Coquillettes", "amount": 320, "unit": "g" },
+      { "name": "Dés de jambon", "amount": 150, "unit": "g" },
+      { "name": "Eau", "amount": 800, "unit": "g" },
+      { "name": "Bouillon de volaille", "amount": 1, "unit": "cube" },
+      { "name": "Crème fraîche épaisse", "amount": 2, "unit": "c.à.s" },
+      { "name": "Parmesan râpé", "amount": 40, "unit": "g" }
+    ]
+  }
+]

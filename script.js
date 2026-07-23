@@ -1,65 +1,36 @@
-// 1. Notre base de données complète
-const recettesDB = [
-  {
-    "id": "rec-001",
-    "title": "Nuggets de poulet ultra-croustillants",
-    "appliance": "AirFryer",
-    "ingredients": [
-      { "name": "Filet de poulet", "amount": 400, "unit": "g" },
-      { "name": "Chapelure panko", "amount": 100, "unit": "g" },
-      { "name": "Oeuf", "amount": 1, "unit": "pièce" },
-      { "name": "Farine", "amount": 50, "unit": "g" },
-      { "name": "Paprika", "amount": 1, "unit": "c.à.c" },
-      { "name": "Huile d'olive", "amount": 1, "unit": "c.à.s" }
-    ]
-  },
-  {
-    "id": "rec-002",
-    "title": "Risotto crémeux aux champignons",
-    "appliance": "Thermomix",
-    "ingredients": [
-      { "name": "Riz Arborio", "amount": 250, "unit": "g" },
-      { "name": "Champignons de Paris", "amount": 200, "unit": "g" },
-      { "name": "Echalote", "amount": 1, "unit": "pièce" },
-      { "name": "Huile d'olive", "amount": 20, "unit": "g" },
-      { "name": "Vin blanc sec", "amount": 50, "unit": "ml" },
-      { "name": "Bouillon de légumes", "amount": 600, "unit": "ml" },
-      { "name": "Parmesan râpé", "amount": 40, "unit": "g" }
-    ]
-  },
-  {
-    "id": "rec-003",
-    "title": "Frites de patates douces",
-    "appliance": "AirFryer",
-    "ingredients": [
-      { "name": "Patate douce", "amount": 600, "unit": "g" },
-      { "name": "Fécule de maïs (Maïzena)", "amount": 1, "unit": "c.à.s" },
-      { "name": "Huile d'olive", "amount": 1, "unit": "c.à.s" },
-      { "name": "Sel fin", "amount": 1, "unit": "pincée" }
-    ]
-  }
-];
+// On crée une variable vide qui va recevoir nos recettes
+let recettesDB = [];
 
-// 2. Afficher les recettes avec le badge de l'appareil
-const conteneurRecettes = document.getElementById('liste-recettes');
+// Le site va "chercher" (fetch) le fichier JSON sur le serveur
+fetch('recettes.json')
+    .then(reponse => reponse.json())
+    .then(donnees => {
+        recettesDB = donnees;
+        afficherRecettes(); // On lance l'affichage une fois les données chargées
+    })
+    .catch(erreur => console.error("Erreur lors du chargement des recettes :", erreur));
 
-recettesDB.forEach(recette => {
-    const div = document.createElement('div');
-    div.className = 'recette-item';
-    // On ajoute un petit texte pour différencier Thermomix et AirFryer
-    div.innerHTML = `
-        <label style="display: flex; align-items: center; cursor: pointer;">
-            <input type="checkbox" value="${recette.id}" class="checkbox-recette" style="margin-right: 10px;"> 
-            <div>
-                <strong>${recette.title}</strong><br>
-                <small style="color: #666;">♨️ ${recette.appliance}</small>
-            </div>
-        </label>
-    `;
-    conteneurRecettes.appendChild(div);
-});
+// La fonction pour afficher les cases à cocher
+function afficherRecettes() {
+    const conteneurRecettes = document.getElementById('liste-recettes');
+    
+    recettesDB.forEach(recette => {
+        const div = document.createElement('div');
+        div.className = 'recette-item';
+        div.innerHTML = `
+            <label style="display: flex; align-items: center; cursor: pointer;">
+                <input type="checkbox" value="${recette.id}" class="checkbox-recette" style="margin-right: 10px;"> 
+                <div>
+                    <strong>${recette.title}</strong><br>
+                    <small style="color: #666;">♨️ ${recette.appliance}</small>
+                </div>
+            </label>
+        `;
+        conteneurRecettes.appendChild(div);
+    });
+}
 
-// 3. Gestion du clic sur le bouton
+// Gestion du clic sur le bouton de copie
 document.getElementById('bouton-copier').addEventListener('click', () => {
     const casesCochees = document.querySelectorAll('.checkbox-recette:checked');
     const recettesSelectionnees = [];
@@ -78,7 +49,7 @@ document.getElementById('bouton-copier').addEventListener('click', () => {
     copierVersKeep(ingredientsFinaux);
 });
 
-// 4. Fonctions de calcul et de copie
+// Les fonctions de calcul
 function consoliderIngredients(recettesSelectionnees) {
   const listeCourses = {};
   recettesSelectionnees.forEach(recette => {
