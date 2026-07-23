@@ -22,7 +22,7 @@ function afficherRecettes() {
                 <input type="checkbox" value="${recette.id}" class="checkbox-recette" style="margin-right: 10px;"> 
                 <div>
                     <strong>${recette.title}</strong><br>
-                    <small style="color: #666;">♨️ ${recette.appliance}</small>
+                    <span class="appareil-tag ${recette.appliance === 'Thermomix' ? 'tag-thermomix' : 'tag-airfryer'}">${recette.appliance}</span>
                 </div>
             </label>
         `;
