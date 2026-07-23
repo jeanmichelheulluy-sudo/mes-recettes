@@ -5,6 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menus Thermomix / AirFryer</title>
     <style>
+        /* Rendre le titre cliquable */
+.titre-recette {
+    cursor: pointer;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+.titre-recette:hover {
+    color: #ff6b6b; /* Couleur qui change au survol */
+    text-decoration: underline;
+}
+
+/* Style de la fenêtre noire en fond */
+.modal-cache {
+    display: none; 
+    position: fixed; 
+    top: 0; left: 0; 
+    width: 100%; height: 100%; 
+    background-color: rgba(0,0,0,0.6); 
+    z-index: 1000;
+    backdrop-filter: blur(3px);
+}
+
+/* La boite blanche de la recette */
+.modal-contenu {
+    background-color: #fff;
+    margin: 5vh auto;
+    padding: 25px;
+    width: 90%;
+    max-width: 600px;
+    max-height: 90vh;
+    border-radius: 16px;
+    overflow-y: auto;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* La croix pour fermer */
+.fermer-modal {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #aaa;
+    cursor: pointer;
+}
+.fermer-modal:hover { color: #333; }
+
+/* Image et sections */
+#modal-image {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    max-height: 250px;
+}
+.modal-section { margin-bottom: 20px; }
+.modal-section h3 { color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 5px; }
+.modal-section ul, .modal-section ol { padding-left: 20px; line-height: 1.6; }
+.lien-original { display: inline-block; margin-top: 15px; color: #888; font-size: 0.9em; text-decoration: none; }
+.lien-original:hover { text-decoration: underline; }
         :root {
             --primary: #FF6B6B;
             --primary-dark: #EE5253;
@@ -179,6 +240,26 @@
         }
     </style>
 </head>
+<!-- Fenêtre Modale pour afficher la recette complète -->
+    <div id="modal-recette" class="modal-cache">
+        <div class="modal-contenu">
+            <span class="fermer-modal" onclick="fermerModal()">&times;</span>
+            <h2 id="modal-titre">Titre de la recette</h2>
+            <img id="modal-image" src="" alt="Image de la recette" style="display: none;">
+            
+            <div class="modal-section">
+                <h3>🛒 Ingrédients</h3>
+                <ul id="modal-ingredients"></ul>
+            </div>
+            
+            <div class="modal-section">
+                <h3>👨‍🍳 Préparation</h3>
+                <ol id="modal-instructions"></ol>
+            </div>
+            
+            <a id="modal-lien" href="#" target="_blank" class="lien-original">Voir l'article original</a>
+        </div>
+    </div>
 <body>
 
     <nav>

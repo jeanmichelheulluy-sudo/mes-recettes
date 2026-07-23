@@ -44,8 +44,13 @@ async function explorerThermoRecetas() {
             });
             const $recette = cheerio.load(reponseRecette.data);
             const texteRecette = $recette('article').text().replace(/\s+/g, ' ').trim();
+            
+            // NOUVEAU : On tente de récupérer l'image principale de la recette
+            const imageRecette = $recette('article img').first().attr('src') || "";
 
             console.log("🧠 Formatage par l'IA en cours...");
+            
+            // NOUVEAU PROMPT : On ajoute imageUrl, url, et instructions
             const prompt = `
             Tu es un assistant culinaire. Voici le texte brut extrait d'une page de recette.
             Extrais les informations pertinentes et renvoie UNIQUEMENT un objet JSON strictement valide avec cette structure exacte. Ne mets AUCUNE balise markdown comme \`\`\`json.
@@ -53,11 +58,17 @@ async function explorerThermoRecetas() {
               "id": "A_REMPLACER",
               "title": "Nom de la recette",
               "appliance": "Thermomix",
+              "url": "${lien}",
+              "imageUrl": "${imageRecette}",
               "ingredients": [
                 { "name": "nom de l'ingrédient", "amount": 100, "unit": "g" }
+              ],
+              "instructions": [
+                "Étape 1 de la préparation...",
+                "Étape 2 de la préparation..."
               ]
             }
-            Règles : amount doit être un nombre. Si pas d'unité (ex: 2 oeufs), mets une chaîne vide "".
+            Règles : amount doit être un nombre. Si pas d'unité, mets une chaîne vide "". Résume les étapes de façon claire.
             Texte à analyser : ${texteRecette.substring(0, 4500)}
             `;
 
@@ -80,7 +91,6 @@ async function explorerThermoRecetas() {
                 console.log(`✅ Ajoutée : "${nouvelleRecette.title}"`);
             }
 
-            // NOUVEAU : Pause de 4 secondes avant d'attaquer la recette suivante
             console.log("⏳ Pause de 4s pour respirer...");
             await pause(4000);
         }
