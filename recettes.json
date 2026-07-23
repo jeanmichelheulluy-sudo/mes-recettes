@@ -360,5 +360,52 @@
         "unit": "boîte"
       }
     ]
+  },
+  {
+    "id": "rec-auto-1784810353408427",
+    "title": "Levain de merlu et de pommes de terre au Thermomix",
+    "appliance": "Thermomix",
+    "ingredients": [
+      {
+        "name": "eau",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "huile d'olive",
+        "amount": 1,
+        "unit": "cuillère à café"
+      },
+      {
+        "name": "pommes de terre pelées, coupées en cubes",
+        "amount": 530,
+        "unit": "g"
+      },
+      {
+        "name": "merlu",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "sel",
+        "amount": 2,
+        "unit": "pincées"
+      },
+      {
+        "name": "poivre moulu",
+        "amount": 2,
+        "unit": "pincées"
+      },
+      {
+        "name": "paprika",
+        "amount": 2,
+        "unit": "pincées"
+      },
+      {
+        "name": "poudre de curry",
+        "amount": 2,
+        "unit": "pincées"
+      }
+    ]
   }
 ]
