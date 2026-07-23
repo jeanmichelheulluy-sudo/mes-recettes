@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menus Thermomix / AirFryer</title>
+    <style>
+        :root {
+            --primary: #FF6B6B;
+            --primary-dark: #EE5253;
+            --secondary: #48DBFB;
+            --dark: #222F3E;
+            --light: #F7F9FC;
+            --white: #FFFFFF;
+            --gray: #8395A7;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--light);
+            color: var(--dark);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Barre de navigation pro */
+        nav {
+            background-color: var(--white);
+            padding: 15px 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-weight: 700;
+            font-size: 18px;
+            color: var(--dark);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .badge-pro {
+            background-color: #E0F7FA;
+            color: #00838F;
+            font-size: 11px;
+            padding: 3px 8px;
+            border-radius: 20px;
+            font-weight: 600;
+        }
+
+        /* Contenu principal */
+        .container {
+            max-width: 650px;
+            margin: 30px auto;
+            padding: 0 20px;
+            flex: 1;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        header {
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            font-size: 26px;
+            margin: 0 0 8px 0;
+            color: var(--dark);
+        }
+
+        p {
+            color: var(--gray);
+            font-size: 14px;
+            margin: 0;
+        }
+
+        #liste-recettes {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 30px;
+        }
+
+        .recette-item {
+            background-color: var(--white);
+            padding: 16px 20px;
+            border-radius: 14px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+            transition: all 0.2s ease;
+            border: 2px solid transparent;
+        }
+
+        .recette-item:hover {
+            border-color: rgba(255, 107, 107, 0.3);
+            transform: translateY(-2px);
+        }
+
+        .recette-label {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .checkbox-recette {
+            width: 22px;
+            height: 22px;
+            accent-color: var(--primary);
+            margin-right: 15px;
+            cursor: pointer;
+        }
+
+        .recette-info {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            flex: 1;
+        }
+
+        .recette-title {
+            font-weight: 600;
+            font-size: 16px;
+            color: var(--dark);
+        }
+
+        /* Étiquettes d'appareils colorées */
+        .appareil-tag {
+            display: inline-block;
+            font-size: 11px;
+            font-weight: 600;
+            padding: 2px 8px;
+            border-radius: 6px;
+            width: fit-content;
+        }
+
+        .tag-thermomix {
+            background-color: #E8F8F5;
+            color: #1ABC9C;
+        }
+
+        .tag-airfryer {
+            background-color: #FEF9E7;
+            color: #F1C40F;
+        }
+
+        /* Bouton d'action principal */
+        #bouton-copier {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: var(--white);
+            width: 100%;
+            padding: 16px;
+            border: none;
+            border-radius: 14px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            box-shadow: 0 6px 15px rgba(255, 107, 107, 0.3);
+            transition: opacity 0.2s ease, transform 0.1s ease;
+        }
+
+        #bouton-copier:hover {
+            opacity: 0.95;
+            transform: translateY(-1px);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 12px;
+            color: var(--gray);
+            border-top: 1px solid #E4E7EB;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            🍳 Mes Petits Plats
+        </div>
+        <span class="badge-pro">Web App</span>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>Menus Thermomix / AirFryer</h1>
+            <p>Sélectionne tes recettes de la semaine pour générer ta liste de courses instantanément.</p>
+        </header>
+
+        <div id="liste-recettes"></div>
+
+        <button id="bouton-copier">Copier les ingrédients pour Keep</button>
+    </div>
+
+    <footer>
+        Générateur de liste de courses intelligent — Propulsé par ton assistant
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
