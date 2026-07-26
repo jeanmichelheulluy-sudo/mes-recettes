@@ -1,10 +1,7 @@
 name: Aspiration Auto des Recettes
 
 on:
-  schedule:
-    # S'exécute tous les jours à 2h00 du matin (heure serveur)
-    - cron: '0 2 * * *'
-  workflow_dispatch: 
+    workflow_dispatch: 
     # Permet aussi de le déclencher manuellement via un bouton sur GitHub
 
 jobs:

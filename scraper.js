@@ -73,7 +73,7 @@ async function explorerThermoRecetas() {
             `;
 
             const reponseIA = await ai.models.generateContent({
-                model: 'gemini-2.5-flash',
+                model: 'gemini-3.5-flash',
                 contents: prompt
             });
 
@@ -91,8 +91,8 @@ async function explorerThermoRecetas() {
                 console.log(`✅ Ajoutée : "${nouvelleRecette.title}"`);
             }
 
-            console.log("⏳ Pause de 4s pour respirer...");
-            await pause(4000);
+            console.log("⏳ Pause de 8s pour respirer...");
+            await pause(8000);
         }
 
         if (nbAjouts > 0) {

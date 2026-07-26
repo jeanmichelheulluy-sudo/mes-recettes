@@ -87,5 +87,1073 @@
         "unit": "pincées"
       }
     ]
+  },
+  {
+    "id": "rec-auto-1785081429331760",
+    "title": "Crème glacée crémeuse au rhum et aux raisins secs",
+    "appliance": "Thermomix",
+    "url": "https://fr.thermorecetas.com/glace-cr%C3%A9meuse-au-rhum-et-aux-raisins-secs/",
+    "imageUrl": "https://www.thermorecetas.com/wp-content/uploads/2026/07/DSC01077-2-e1785001598239.jpg",
+    "ingredients": [
+      {
+        "name": "lait concentré",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "crème à fouetter froide",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "rhum vieilli",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "raisins secs sultana",
+        "amount": 90,
+        "unit": "g"
+      }
+    ],
+    "instructions": [
+      "Faire tremper 80 g de raisins secs dans 150 ml de rhum vieux (idéalement toute une nuit ou plusieurs jours pour qu'ils s'imprègnent bien).",
+      "Dans le bol du Thermomix, placer le fouet papillon, ajouter la crème liquide entière froide et fouetter pendant environ 1 minute."
+    ]
+  },
+  {
+    "id": "rec-auto-1785081478790771",
+    "title": "Boulettes de poulet et de mozzarella",
+    "appliance": "Thermomix",
+    "url": "https://fr.thermorecetas.com/Boulettes-de-poulet-et-de-mozzarella/",
+    "imageUrl": "https://www.thermorecetas.com/wp-content/uploads/2026/07/bolitas-de-pollo-y-mozzarella-2.jpeg",
+    "ingredients": [
+      {
+        "name": "gousse d'ail (facultatif)",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "name": "oignon",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "persil frais",
+        "amount": 5,
+        "unit": "g"
+      },
+      {
+        "name": "pain en morceaux",
+        "amount": 70,
+        "unit": "g"
+      },
+      {
+        "name": "poitrine de poulet en morceaux",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "sauce soja",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "name": "sauce teriyaki",
+        "amount": 7,
+        "unit": "g"
+      },
+      {
+        "name": "paprika de la vera",
+        "amount": 0.5,
+        "unit": "cuillère à café"
+      },
+      {
+        "name": "sel",
+        "amount": 0,
+        "unit": ""
+      },
+      {
+        "name": "poivre noir fraîchement moulu",
+        "amount": 0,
+        "unit": ""
+      },
+      {
+        "name": "mozzarella",
+        "amount": 0,
+        "unit": ""
+      },
+      {
+        "name": "œuf",
+        "amount": 0,
+        "unit": ""
+      },
+      {
+        "name": "chapelure",
+        "amount": 0,
+        "unit": ""
+      },
+      {
+        "name": "huile pour friture",
+        "amount": 0,
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "Mettre l'ail et l'oignon dans le bol du Thermomix et hacher 5 secondes à vitesse 7.",
+      "Racler les parois du bol avec une spatule, ajouter le pain et mixer 5 secondes à vitesse 5 (ou vitesse 8 si le pain est rassis).",
+      "Ajouter le poulet, la sauce soja, la sauce teriyaki, le paprika, le sel et le poivre, puis mélanger 10 secondes à vitesse 5.",
+      "Préparer un plat avec l'œuf battu, un autre avec la chapelure, et couper la mozzarella égouttée en cubes d'un centimètre.",
+      "S'humidifier les mains, façonner des boules avec la pâte de poulet, les aplatir pour y placer un cube de mozzarella, puis refermer la boule pour que la viande enveloppe complètement le fromage.",
+      "Passer les boulettes de poulet successivement dans l'œuf battu puis dans la chapelure.",
+      "Faire frire dans une poêle avec une grande quantité d'huile bien chaude, égoutter sur du papier absorbant et servir immédiatement."
+    ]
+  },
+  {
+    "id": "rec-auto-1785081522850482",
+    "title": "Boules de fromage aux noix",
+    "appliance": "Thermomix",
+    "url": "https://fr.thermorecetas.com/boules-de-fromage-aux-noix/",
+    "imageUrl": "https://www.thermorecetas.com/wp-content/uploads/2026/07/DSC00908-2-e1784978851699.jpg",
+    "ingredients": [
+      {
+        "name": "fromage à la crème type Philadelphia",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "fromage de chèvre",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "ail en poudre",
+        "amount": 1,
+        "unit": "cuillère à café"
+      },
+      {
+        "name": "pistaches décortiquées",
+        "amount": 1,
+        "unit": "poignée"
+      },
+      {
+        "name": "noix",
+        "amount": 1,
+        "unit": "poignée"
+      },
+      {
+        "name": "canneberges séchées",
+        "amount": 1,
+        "unit": "poignée"
+      },
+      {
+        "name": "biscuits fins et carrés",
+        "amount": 1,
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "Mettre une poignée de noix, de canneberges séchées et de pistaches dans le bol du mixeur et les hacher grossièrement en donnant plusieurs coups à la vitesse 6, puis réserver.",
+      "Nettoyer le bol et y ajouter le fromage de chèvre, le fromage frais (Philadelphia) et l'ail en poudre.",
+      "Mélanger pendant 30 secondes à la vitesse 3,5.",
+      "Sortir la préparation du bol, la placer dans un plat et la laisser refroidir au réfrigérateur pendant au moins deux heures pour qu'elle durcisse.",
+      "Former des boules avec les mains, puis les rouler dans le mélange de fruits secs hachés.",
+      "Placer un biscuit à l'intérieur de chaque boule et les remettre au réfrigérateur pour qu'elles restent bien fermes.",
+      "Servir bien frais, accompagnées de biscuits supplémentaires."
+    ]
+  },
+  {
+    "id": "rec-auto-1785081540170888",
+    "title": "Erreurs courantes lors de la préparation de pizzas maison",
+    "appliance": "Thermomix",
+    "url": "https://fr.thermorecetas.com/Articles/Erreurs-courantes-lors-de-la-pr%C3%A9paration-d%27une-pizza-maison/",
+    "imageUrl": "https://secure.gravatar.com/avatar/c9f96aac48046679d0e8d6eeb54d509445bd8ed5778e8a168ef585d0c2b4679c?s=24&d=mm&r=g",
+    "ingredients": [
+      {
+        "name": "Pâte à pizza",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "name": "Sauce",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "name": "Fromage",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "name": "Garnitures au choix",
+        "amount": 1,
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "Préchauffer le four à la température maximale (250-280 °C) en y plaçant une pierre réfractaire ou une plaque de cuisson épaisse pour bien accumuler et répartir la chaleur.",
+      "Préparer tous les ingrédients à l'avance : réaliser la sauce, râper le fromage et couper les garnitures avant d'étaler la pâte.",
+      "Garnir la pizza de manière équilibrée et modérée pour éviter que l'excès d'ingrédients ne dégage trop d'humidité et ne détrempe la pâte.",
+      "Enfourner la pizza uniquement lorsque le four et le support de cuisson (pierre ou plaque) sont extrêmement chauds.",
+      "Laisser reposer la pizza quelques minutes après la sortie du four avant de la couper afin que la garniture se stabilise."
+    ]
+  },
+  {
+    "id": "rec-auto-1785081555597686",
+    "title": "Gâteau aux biscuits pour enfants sans gluten et sans lactose",
+    "appliance": "Thermomix",
+    "url": "https://fr.thermorecetas.com/auteur/thermor%C3%A9ception/",
+    "imageUrl": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2096%2096'%3E%3C/svg%3E",
+    "ingredients": [],
+    "instructions": []
+  },
+  {
+    "id": "rec-auto-1785081576516558",
+    "title": "Aliments de saison en été : un guide complet et des recettes avec Thermomix",
+    "appliance": "Thermomix",
+    "url": "https://fr.thermorecetas.com/Articles/Aliments-d%27%C3%A9t%C3%A9-de-saison-%3A-un-guide-complet-et-des-recettes-avec-Thermomix/",
+    "imageUrl": "https://www.thermorecetas.com/wp-content/uploads/2025/06/Ensaladas-de-legumbres-lo-mejor-para-los-dias-de-calor-0.jpg",
+    "ingredients": [
+      {
+        "name": "Tomates mûres",
+        "amount": 0,
+        "unit": ""
+      },
+      {
+        "name": "Concombre",
+        "amount": 0,
+        "unit": ""
+      },
+      {
+        "name": "Poivron",
+        "amount": 0,
+        "unit": ""
+      },
+      {
+        "name": "Légumineuses",
+        "amount": 0,
+        "unit": ""
+      },
+      {
+        "name": "Fruits de saison (mangue, fraise, ananas, pastèque)",
+        "amount": 0,
+        "unit": ""
+      },
+      {
+        "name": "Herbes fraîches (basilic, menthe)",
+        "amount": 0,
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "Sélectionner des fruits et légumes de saison bien mûrs pour profiter de leur maximum de nutriments et de saveurs.",
+      "Utiliser la puissance de mixage du Thermomix pour préparer des soupes froides comme le gaspacho traditionnel ou le salmorejo afin d'obtenir une texture onctueuse sans avoir besoin de filtrer.",
+      "Composer des salades de légumineuses rafraîchissantes pour des repas d'été légers et complets.",
+      "Réaliser des glaces et des sorbets maison au Thermomix sans additifs en associant des fruits (mangue, fraise, ananas, pastèque) et des herbes aromatiques (basilic, menthe)."
+    ]
+  },
+  {
+    "id": "rec-auto-1785081596251325",
+    "title": "Salade de pommes de terre tiède au Varoma",
+    "appliance": "Thermomix",
+    "url": "https://fr.thermorecetas.com/Articles/Des-id%C3%A9es-rapides-et-rafra%C3%AEchissantes-pour-cuisiner-avec-le-Thermomix-en-%C3%A9t%C3%A9/",
+    "imageUrl": "https://www.thermorecetas.com/wp-content/uploads/2020/07/recopilatorio-9-recetas-de-ensadilla-rusa-originales-hechas-con-thermomix-thermorecetas-300x182.jpg",
+    "ingredients": [
+      {
+        "name": "Pommes de terre",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Sauce soja",
+        "amount": 2,
+        "unit": "c. à soupe"
+      },
+      {
+        "name": "Vinaigre balsamique",
+        "amount": 1,
+        "unit": "c. à soupe"
+      }
+    ],
+    "instructions": [
+      "Laver, éplucher et couper les pommes de terre en dés.",
+      "Placer les pommes de terre dans le Varoma et lancer la cuisson à la vapeur pour préserver toutes leurs qualités nutritives.",
+      "Une fois la cuisson terminée, laisser tiédir les pommes de terre dans un saladier.",
+      "Arroser de sauce soja et de vinaigre balsamique, mélanger délicatement et servir."
+    ]
+  },
+  {
+    "id": "rec-auto-1785081668977803",
+    "title": "Glace banane-mangue au Thermomix",
+    "appliance": "Thermomix",
+    "url": "https://fr.thermorecetas.com/Glace-banane-mangue-au-Thermomix/",
+    "imageUrl": "https://www.thermorecetas.com/wp-content/uploads/2026/07/helado-rapido-de-platano-y-mango-1.jpeg",
+    "ingredients": [
+      {
+        "name": "sucre",
+        "amount": 70,
+        "unit": "g"
+      },
+      {
+        "name": "yogourt nature",
+        "amount": 190,
+        "unit": "g"
+      },
+      {
+        "name": "morceaux de mangue congelés",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "banane coupée en tranches de 1 à 2 cm, congelée",
+        "amount": 300,
+        "unit": "g"
+      }
+    ],
+    "instructions": [
+      "Mettre le sucre dans le bol et pulvériser pendant 10 secondes à vitesse 10, puis racler les parois à l'aide de la spatule.",
+      "Ajouter le yaourt, la mangue congelée et la banane congelée, puis mélanger pendant 1 minute à vitesse 7.",
+      "Racler à nouveau les parois du bol, mélanger avec la spatule, puis programmer 30 secondes à vitesse 4.",
+      "Servir immédiatement."
+    ]
+  },
+  {
+    "id": "rec-auto-1785081696538506",
+    "title": "Merlu farci au pâté de saumon et aux crevettes",
+    "appliance": "Thermomix",
+    "url": "https://fr.thermorecetas.com/Merlu-farci-au-p%C3%A2t%C3%A9-de-saumon-et-aux-crevettes/",
+    "imageUrl": "https://www.thermorecetas.com/wp-content/uploads/2026/06/DSC00953-2-e1782846867984.jpg",
+    "ingredients": [
+      {
+        "name": "filets de merlu fins et larges",
+        "amount": 8,
+        "unit": ""
+      },
+      {
+        "name": "pâté de saumon",
+        "amount": 1,
+        "unit": "pot"
+      },
+      {
+        "name": "farine de blé",
+        "amount": 1,
+        "unit": "assiette"
+      },
+      {
+        "name": "œufs",
+        "amount": 2,
+        "unit": ""
+      },
+      {
+        "name": "crevettes décortiquées surgelées",
+        "amount": 350,
+        "unit": "g"
+      },
+      {
+        "name": "piments piquillos",
+        "amount": 3,
+        "unit": ""
+      },
+      {
+        "name": "gousses d'ail",
+        "amount": 3,
+        "unit": ""
+      },
+      {
+        "name": "oignon",
+        "amount": 0.25,
+        "unit": ""
+      },
+      {
+        "name": "sel",
+        "amount": 1,
+        "unit": "pincée"
+      },
+      {
+        "name": "huile d'olive",
+        "amount": 40,
+        "unit": "g"
+      }
+    ],
+    "instructions": [
+      "Faire décongeler les crevettes pendant quelques heures en conservant leur eau de décongélation.",
+      "Mettre l'oignon et les gousses d'ail dans le bol du Thermomix, puis hacher pendant 6 secondes à vitesse 6.",
+      "Racler les parois du bol, ajouter 40 g d'huile d'olive et faire rissoler pendant 6 minutes à 110°C, vitesse cuillère.",
+      "Ajouter les piments piquillos et programmer 2 minutes à 110°C, vitesse cuillère.",
+      "Mixer le mélange pendant 20 secondes à vitesse 5 pour l'écraser légèrement.",
+      "Ajouter les crevettes avec leur eau et programmer 6 minutes à 110°C, sens inverse, vitesse cuillère.",
+      "Ajouter une cuillère à soupe de farine de blé sur les bords du bol, puis cuire pendant 3 minutes à 110°C, sens inverse, vitesse cuillère.",
+      "Saler les filets de merlu d'un côté, puis étaler une couche généreuse de pâté de saumon sur la moitié d'entre eux.",
+      "Préparer une assiette de farine et une assiette avec les œufs battus. Faire chauffer de l'huile dans une poêle.",
+      "Recouvrir chaque filet de merlu tartiné avec un second filet. Les passer successivement dans la farine puis dans l'œuf battu avant de les faire frire.",
+      "Dresser le poisson frit dans un plat, napper généreusement de la sauce aux crevettes et servir chaud."
+    ]
+  },
+  {
+    "id": "rec-auto-1785081725636657",
+    "title": "Pizza spéciale au brie, aux myrtilles et aux noix de pécan",
+    "appliance": "Thermomix",
+    "url": "https://fr.thermorecetas.com/Pizza-sp%C3%A9ciale-au-brie--aux-myrtilles-et-aux-noix-de-p%C3%A9can/",
+    "imageUrl": "https://www.thermorecetas.com/wp-content/uploads/2026/06/DSC00967-2-e1782729074201.jpg",
+    "ingredients": [
+      {
+        "name": "farine de blé",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "eau",
+        "amount": 220,
+        "unit": "ml"
+      },
+      {
+        "name": "sucre",
+        "amount": 1,
+        "unit": "cuillère à café"
+      },
+      {
+        "name": "sel",
+        "amount": 1,
+        "unit": "cuillère à café"
+      },
+      {
+        "name": "huile d'olive",
+        "amount": 130,
+        "unit": "g"
+      },
+      {
+        "name": "levure de boulanger fraîche",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "noix de pécan",
+        "amount": 0,
+        "unit": ""
+      },
+      {
+        "name": "canneberges séchées",
+        "amount": 0,
+        "unit": ""
+      },
+      {
+        "name": "fromage brie",
+        "amount": 0,
+        "unit": ""
+      },
+      {
+        "name": "mozzarella râpée",
+        "amount": 1,
+        "unit": "paquet"
+      },
+      {
+        "name": "bacon fumé",
+        "amount": 15,
+        "unit": "tranches"
+      },
+      {
+        "name": "tomate écrasée",
+        "amount": 0,
+        "unit": ""
+      },
+      {
+        "name": "origan",
+        "amount": 0,
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "Dans le bol du Thermomix, ajoutez la farine de blé, le sel, le sucre, 30 g d'huile d'olive, la levure de boulanger fraîche et l'eau froide. Pétrissez pendant 4 minutes en mode pétrissage.",
+      "Retirez la pâte, divisez-la en 4 portions et étalez-les sur un plan de travail fariné en leur donnant la forme d'un disque ou d'un carré.",
+      "Laissez la pâte fermenter et doubler de volume pendant 1 heure.",
+      "Préchauffez le four à 200 °C en mode chaleur tournante.",
+      "Étalez la tomate écrasée sur chaque pizza et parsemez de mozzarella râpée.",
+      "Garnissez de bacon, de noix de pécan, de morceaux de brie, de canneberges et d'origan, puis enfournez."
+    ]
+  },
+  {
+    "id": "rec-auto-1785081755613562",
+    "title": "Risotto aux pâtes et légumes",
+    "appliance": "Thermomix",
+    "url": "https://fr.thermorecetas.com/Risotto-de-p%C3%A2tes-aux-l%C3%A9gumes/",
+    "imageUrl": "https://www.thermorecetas.com/wp-content/uploads/2026/06/pasta-risottata-con-verduras-3.jpeg",
+    "ingredients": [
+      {
+        "name": "persil frais",
+        "amount": 0,
+        "unit": ""
+      },
+      {
+        "name": "oignon",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "gousse d'ail",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "name": "huile d'olive",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "eau",
+        "amount": 700,
+        "unit": "g"
+      },
+      {
+        "name": "sel",
+        "amount": 0,
+        "unit": ""
+      },
+      {
+        "name": "courgettes tranchées",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "carottes tranchées",
+        "amount": 125,
+        "unit": "g"
+      },
+      {
+        "name": "tomates cerises coupées en deux",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "pâtes courtes",
+        "amount": 350,
+        "unit": "g"
+      }
+    ],
+    "instructions": [
+      "Mettre le persil dans le bol et hacher pendant 5 secondes à vitesse 8. Retirer et réserver.",
+      "Ajouter l'oignon, la gousse d'ail et l'huile d'olive dans le bol. Hacher pendant 5 secondes à vitesse 7, puis racler les parois à l'aide de la spatule.",
+      "Faire rissoler pendant 3 minutes, à 120 °C, sens inverse, vitesse cuillère.",
+      "Ajouter l'eau, le sel et les légumes (courgettes, carottes et tomates cerises). Programmer 7 minutes, à 100 °C, sens inverse, vitesse 1.",
+      "Ajouter les pâtes, mélanger avec la spatule et programmer le temps indiqué sur l'emballage des pâtes, à 100 °C, sens inverse, vitesse cuillère.",
+      "Laisser reposer pendant 2 minutes et servir immédiatement en parsemant avec le persil haché réservé."
+    ]
+  },
+  {
+    "id": "rec-auto-1785081784838305",
+    "title": "Salade de pommes de terre aux haricots verts",
+    "appliance": "Thermomix",
+    "url": "https://fr.thermorecetas.com/Salade-de-pommes-de-terre-aux-haricots-verts/",
+    "imageUrl": "https://www.thermorecetas.com/wp-content/uploads/2026/06/DSC00928-2-2-e1782639337327.jpg",
+    "ingredients": [
+      {
+        "name": "pommes de terre moyennes",
+        "amount": 4,
+        "unit": ""
+      },
+      {
+        "name": "haricots verts",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "œufs",
+        "amount": 4,
+        "unit": ""
+      },
+      {
+        "name": "maïs cuit",
+        "amount": 1,
+        "unit": "boîte"
+      },
+      {
+        "name": "huile d'olive ou de tournesol",
+        "amount": 0,
+        "unit": ""
+      },
+      {
+        "name": "vinaigre de vin blanc",
+        "amount": 0,
+        "unit": ""
+      },
+      {
+        "name": "sel",
+        "amount": 0,
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "Remplir le bol du Thermomix avec de l'eau pour la cuisson vapeur.",
+      "Placer les pommes de terre coupées et les œufs dans le panier de cuisson ou le Varoma.",
+      "Ajouter les haricots verts par-dessus les pommes de terre ou sur le plateau Varoma.",
+      "Cuire à la vapeur en programmant la fonction Varoma pendant environ 25 minutes à la vitesse 1.",
+      "Une fois la cuisson terminée, laisser refroidir, écaler les œufs et les couper en morceaux.",
+      "Mélanger délicatement tous les ingrédients refroidis dans un saladier avec le maïs égoutté.",
+      "Assaisonner à votre convenance avec de l'huile, du vinaigre de vin blanc et du sel."
+    ]
+  },
+  {
+    "id": "rec-auto-1785081812035956",
+    "title": "Gâteau biscuit bicolore à la crème et aux fraises",
+    "appliance": "Thermomix",
+    "url": "https://fr.thermorecetas.com/G%C3%A2teau-biscuit-bicolore-%C3%A0-la-cr%C3%A8me-et-aux-fraises/",
+    "imageUrl": "https://www.thermorecetas.com/wp-content/uploads/2026/06/DSC00959-2-1.jpg",
+    "ingredients": [
+      {
+        "name": "Eau (pour la crème pâtissière)",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "Jaunes d'œufs (indiqués bourgeons d'eau)",
+        "amount": 4,
+        "unit": ""
+      },
+      {
+        "name": "Sucre (pour la crème pâtissière)",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Fécule de maïs",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Beurre",
+        "amount": 25,
+        "unit": "g"
+      },
+      {
+        "name": "Extrait de vanille",
+        "amount": 2,
+        "unit": "cuillères à café"
+      },
+      {
+        "name": "Caramel liquide",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Crème à fouetter froide",
+        "amount": 800,
+        "unit": "ml"
+      },
+      {
+        "name": "Sucre (pour la crème fouettée)",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Biscuits rectangulaires",
+        "amount": 1,
+        "unit": "paquet"
+      },
+      {
+        "name": "Confiture de fraises",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Fraises",
+        "amount": 8,
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "Placez le fouet papillon dans le bol du Thermomix, versez 800 ml de crème liquide très froide et 150 g de sucre, puis fouettez pendant environ 1 minute et 30 secondes à la vitesse 3,5. Surveillez bien la texture et réservez la crème fouettée obtenue.",
+      "Préparez la crème pâtissière au caramel en faisant cuire l'eau, les jaunes d'œufs, 100 g de sucre, la fécule de maïs, le beurre, l'extrait de vanille et le caramel liquide au Thermomix pendant environ 10 minutes.",
+      "Procédez au montage du gâteau dans l'ordre en alternant des couches de biscuits rectangulaires, de crème pâtissière au caramel, de crème fouettée et de confiture de fraises.",
+      "Décorez le dessus du gâteau avec le reste de la crème fouettée à l'aide d'une poche à douille et terminez en disposant les fraises coupées en lamelles."
+    ]
+  },
+  {
+    "id": "rec-auto-1785081837572185",
+    "title": "Salade de poivrons vapeur au thon et œuf dur (Idée Pique-nique)",
+    "appliance": "Thermomix",
+    "url": "https://fr.thermorecetas.com/Articles/Des-recettes-Thermomix-saines-et-pratiques-%C3%A0-emporter-%C3%A0-la-piscine/",
+    "imageUrl": "https://www.thermorecetas.com/wp-content/uploads/2020/07/recopilatorio-9-recetas-de-ensadilla-rusa-originales-hechas-con-thermomix-thermorecetas.jpg",
+    "ingredients": [
+      {
+        "name": "Poivrons",
+        "amount": 0,
+        "unit": ""
+      },
+      {
+        "name": "Œuf dur",
+        "amount": 0,
+        "unit": ""
+      },
+      {
+        "name": "Sardines ou thon",
+        "amount": 0,
+        "unit": ""
+      },
+      {
+        "name": "Olives",
+        "amount": 0,
+        "unit": ""
+      },
+      {
+        "name": "Vinaigrette",
+        "amount": 0,
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "Cuire les poivrons à la vapeur dans le Varoma du Thermomix (ou les faire dorer) pour obtenir une base de salade.",
+      "Combiner les poivrons avec l'œuf dur, les sardines ou le thon, et les olives.",
+      "Conserver la vinaigrette à part et l'ajouter juste avant de consommer pour que la salade reste bien croustillante."
+    ]
+  },
+  {
+    "id": "rec-auto-1785081861837651",
+    "title": "Riz spécial au poulet mariné",
+    "appliance": "Thermomix",
+    "url": "https://fr.thermorecetas.com/riz-sp%C3%A9cial-avec-du-poulet-marin%C3%A9/",
+    "imageUrl": "https://www.thermorecetas.com/wp-content/uploads/2026/06/DSC00902-2-e1782410208773.jpg",
+    "ingredients": [
+      {
+        "name": "riz vapeur",
+        "amount": 350,
+        "unit": "g"
+      },
+      {
+        "name": "eau",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "oignon",
+        "amount": 0.25,
+        "unit": ""
+      },
+      {
+        "name": "gousses d'ail",
+        "amount": 2,
+        "unit": ""
+      },
+      {
+        "name": "poitrine de poulet",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "huile d'olive",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "gingembre frais (ou 1 cuillère à café de gingembre moulu)",
+        "amount": 1,
+        "unit": "morceau"
+      },
+      {
+        "name": "paprika doux",
+        "amount": 1,
+        "unit": "cuillère à café"
+      },
+      {
+        "name": "miel",
+        "amount": 0,
+        "unit": ""
+      },
+      {
+        "name": "sauce soja",
+        "amount": 2,
+        "unit": "cuillères à soupe"
+      },
+      {
+        "name": "ail en poudre",
+        "amount": 0.5,
+        "unit": "cuillère à café"
+      },
+      {
+        "name": "sel",
+        "amount": 0,
+        "unit": ""
+      },
+      {
+        "name": "petits pois surgelés décongelés",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "maïs en conserve",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "instructions": [
+      "Coupez la poitrine de poulet en petits morceaux et placez-la dans un bol.",
+      "Ajoutez au poulet un filet d'huile d'olive, le gingembre râpé, une pincée de sel, deux cuillères à soupe de sauce soja, une demi-cuillère à café d'ail en poudre, un filet de miel et une cuillère à café de paprika doux. Mélangez bien et laissez mariner.",
+      "Versez 800 g d'eau dans le bol du Thermomix et faites-la chauffer pendant 10 minutes à 100 °C, vitesse 1.",
+      "Insérez le panier dans le bol, versez-y les 350 g de riz avec un peu de sel, puis programmez 20 minutes à 100 °C, vitesse 4. Retirez le riz une fois cuit."
+    ]
+  },
+  {
+    "id": "rec-auto-1785081887603518",
+    "title": "Astuces pour une viande très tendre et juteuse",
+    "appliance": "Thermomix",
+    "url": "https://fr.thermorecetas.com/Articles/Des-astuces-infaillibles-pour-une-viande-tr%C3%A8s-tendre-et-juteuse/",
+    "imageUrl": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%3E%3C/svg%3E",
+    "ingredients": [
+      {
+        "name": "Pièce de viande (bœuf, porc ou poulet de bonne qualité)",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "name": "Marinade ou attendrisseurs naturels",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "name": "Matières grasses ou sauces adaptées",
+        "amount": 1,
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "Choisir le morceau de viande idéal chez le boucher : privilégiez les morceaux avec du gras intramusculaire ou du collagène selon le type de cuisson.",
+      "Couper la viande perpendiculairement au sens des fibres musculaires pour garantir une texture tendre en bouche.",
+      "Utiliser des marinades ou des agents attendrisseurs naturels pour décomposer les fibres sans dénaturer le goût.",
+      "Cuire lentement à basse température en contrôlant le point de cuisson afin de conserver l'humidité et le jus.",
+      "Laisser reposer la viande après la cuisson pour permettre aux fibres de se détendre et aux jus de se diffuser."
+    ]
+  },
+  {
+    "id": "rec-auto-1785081915091524",
+    "title": "Radiatore avec burrata et crevettes à l'ail et au citron",
+    "appliance": "Thermomix",
+    "url": "https://fr.thermorecetas.com/Radiatore-avec-burrata-et-crevettes-%C3%A0-l%27ail-et-au-citron/",
+    "imageUrl": "https://www.thermorecetas.com/wp-content/uploads/2026/06/Radiatori-con-langostinos-1.png",
+    "ingredients": [
+      {
+        "name": "pâtes de type radiateur",
+        "amount": 320,
+        "unit": "g"
+      },
+      {
+        "name": "crevettes crues pelées",
+        "amount": 20,
+        "unit": ""
+      },
+      {
+        "name": "gousses d'ail",
+        "amount": 2,
+        "unit": ""
+      },
+      {
+        "name": "zeste d'un demi-citron",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "name": "jus de citron",
+        "amount": 1,
+        "unit": "cuillère à soupe"
+      },
+      {
+        "name": "huile d'olive extra vierge",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "burrata",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "tomates mûres coupées en dés",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "pesto vert",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "sel",
+        "amount": 0,
+        "unit": "au goût"
+      },
+      {
+        "name": "poivre noir fraîchement moulu",
+        "amount": 0,
+        "unit": "au goût"
+      }
+    ],
+    "instructions": [
+      "Faites cuire les pâtes dans de l'eau bouillante selon les instructions du fabricant pour qu'elles soient al dente. Égouttez-les en veillant à conserver l'eau de cuisson.",
+      "Hachez finement les gousses d'ail.",
+      "Faites chauffer l'huile d'olive dans une grande poêle, puis faites-y revenir l'ail quelques secondes sans le laisser colorer.",
+      "Ajoutez les crevettes dans la poêle, assaisonnez de sel et de poivre, et faites-les sauter pendant 1 à 2 minutes de chaque côté.",
+      "Ajoutez le zeste et le jus de citron, mélangez soigneusement, puis retirez les crevettes de la poêle et réservez-les au chaud.",
+      "Mélangez les pâtes chaudes dans la poêle avec un peu d'eau de cuisson réservée, puis dressez l'ensemble en y déposant la burrata, les dés de tomates fraîches, le pesto vert et les crevettes réservées."
+    ]
+  },
+  {
+    "id": "rec-auto-1785081960347744",
+    "title": "Steak russe aux champignons et pâte feuilletée",
+    "appliance": "Thermomix",
+    "url": "https://fr.thermorecetas.com/Steak-russe-aux-champignons-et-p%C3%A2te-feuillet%C3%A9e/",
+    "imageUrl": "https://www.thermorecetas.com/wp-content/uploads/2026/06/DSC00697-2-e1781815387856.jpg",
+    "ingredients": [
+      {
+        "name": "bœuf haché",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "oignon",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "name": "champignons tranchés",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "ail",
+        "amount": 2,
+        "unit": ""
+      },
+      {
+        "name": "pâte feuilletée",
+        "amount": 1,
+        "unit": "feuille"
+      },
+      {
+        "name": "sel",
+        "amount": 0,
+        "unit": ""
+      },
+      {
+        "name": "poivre noir moulu",
+        "amount": 0,
+        "unit": ""
+      },
+      {
+        "name": "huile d'olive",
+        "amount": 30,
+        "unit": "g"
+      }
+    ],
+    "instructions": [
+      "Mettre le demi-oignon et l'ail dans le bol du Thermomix, puis mixer 6 secondes à la vitesse 6.",
+      "Ajouter les champignons et hacher 3 secondes à la vitesse 3,5.",
+      "Racler les parois du bol, verser l'huile d'olive et cuire 15 minutes à 120 °C, vitesse cuillère.",
+      "Ajouter le bœuf haché, saler, poivrer et mélanger 1 minute en sens inverse à la vitesse 1.",
+      "Retirer la préparation du bol, façonner les steaks, les faire dorer rapidement à la poêle, puis les envelopper de pâte feuilletée avant de terminer la cuisson au four."
+    ]
+  },
+  {
+    "id": "rec-auto-1785081982487370",
+    "title": "Gratin de nouilles aux côtes levées",
+    "appliance": "Thermomix",
+    "url": "https://fr.thermorecetas.com/Articles/Recettes-de-gratins-au-Thermomix-pour-tous-les-go%C3%BBts/",
+    "imageUrl": "https://www.thermorecetas.com/wp-content/uploads/2021/11/recopilatorio-10-platos-de-cuchara-para-el-invierno-thermorecetas-300x240.jpg",
+    "ingredients": [
+      {
+        "name": "côtes levées marinées",
+        "amount": 0,
+        "unit": ""
+      },
+      {
+        "name": "nouilles",
+        "amount": 0,
+        "unit": ""
+      },
+      {
+        "name": "sofrito aromatique",
+        "amount": 0,
+        "unit": ""
+      },
+      {
+        "name": "bouillon",
+        "amount": 0,
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "Préparer un sofrito aromatique dans le bol du Thermomix.",
+      "Ajouter les côtes levées marinées et le bouillon.",
+      "Lancer la cuisson en utilisant le fouet papillon, la rotation à gauche et la vitesse cuillère pour préserver la texture de la viande.",
+      "Ajouter les nouilles et terminer la cuisson des pâtes directement dans le même récipient."
+    ]
+  },
+  {
+    "id": "rec-auto-178508201398775",
+    "title": "Riz aux tomates séchées au soleil en accompagnement",
+    "appliance": "Thermomix",
+    "url": "https://fr.thermorecetas.com/riz-aux-tomates-s%C3%A9ch%C3%A9es-au-soleil-en-accompagnement/",
+    "imageUrl": "https://www.thermorecetas.com/wp-content/uploads/2026/06/arroz-con-tomates-secos-para-guarnicion-2.jpeg",
+    "ingredients": [
+      {
+        "name": "feuilles de persil",
+        "amount": 0,
+        "unit": ""
+      },
+      {
+        "name": "feuilles de basilic",
+        "amount": 0,
+        "unit": ""
+      },
+      {
+        "name": "origan frais",
+        "amount": 0,
+        "unit": ""
+      },
+      {
+        "name": "oignon",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "gousse d'ail",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "name": "huile d'olive",
+        "amount": 25,
+        "unit": "g"
+      },
+      {
+        "name": "tomates séchées au soleil conservées dans l'huile (égouttées)",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "filets d'anchois à l'huile",
+        "amount": 3,
+        "unit": ""
+      },
+      {
+        "name": "sel",
+        "amount": 0,
+        "unit": ""
+      },
+      {
+        "name": "riz précuit",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "fromage râpé",
+        "amount": 0,
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "Hacher les herbes aromatiques (persil, basilic, origan) dans le bol du Thermomix pendant 3 secondes à vitesse 8, puis les réserver.",
+      "Mettre l'oignon, l'ail et l'huile d'olive dans le bol, puis hacher 5 secondes à vitesse 7.",
+      "Racler les parois à l'aide de la spatule et faire rissoler pendant 3 minutes, à 120°C, vitesse 1.",
+      "Ajouter les tomates séchées égouttées et les anchois, puis mixer 5 secondes à vitesse 7. Réserver ce mélange dans un grand récipient.",
+      "Cuire le riz dans une casserole d'eau selon les instructions du fabricant, l'égoutter et l'incorporer au mélange de tomates séchées.",
+      "Mélanger soigneusement, puis servir chaud ou froid, saupoudré de fromage râpé et des herbes aromatiques réservées."
+    ]
   }
 ]
